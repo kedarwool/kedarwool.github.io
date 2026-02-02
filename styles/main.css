@@ -1,5 +1,6 @@
-/* @author: Kedar Woolfolk */ 
-/* the style for the body*/ 
+/* @author: Kedar Woolfolk, CSS page
+Southern Illinois University Developed: 2-1-26  Tested: 2-1-26 */ 
+
 body { 
     width: 725px; 
     background-color: lightyellow; 
@@ -7,15 +8,15 @@ body {
 }
 
 main {
-    width:50%;
+    width: 50%;
     height:500px;
     background-color: white;
     float: left;
 }
 
 aside {
-    width:50%;
-    height:500px;
+    width: 50%;
+    height: 500px;
     background-color: white;
     float: right;
 }
@@ -50,4 +51,8 @@ li {
     right: 10px;
     top: 10px;
 
+}
+
+img {
+    position: static;
 }
