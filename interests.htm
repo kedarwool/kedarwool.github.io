@@ -9,6 +9,14 @@ Southern Illinois University Developed: 2-2-26  Tested: 2-2-26
         <meta charset="utf-8">
         <title>Personal Portfolio</title> 
         <link rel="stylesheet" href="style/main.css"> <!-- connects page to CSS -->
+        <link rel="stylesheet" href="style/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
         
         <meta name="description" content="Interests"> <!-- meta description -->
         <meta name="keywords" content="Interests, experience, education, resume, Kedar Woolfolk"> 
